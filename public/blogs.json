@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "authorName": "John Doe",
+      "blogTitle": "Exploring the Wonders of Nature",
+      "blogCoverImage": "https://img.freepik.com/free-photo/side-view-couple-hiking-trip_23-2150343085.jpg?w=996&t=st=1696791330~exp=1696791930~hmac=bc6fd62eea51453ce5013353af044a275e974b883d293418b868711b184f87c3",
+      "authorImage": "https://img.freepik.com/free-photo/headshot-pleased-hipster-guy-dressed-maroon-t-shirt_176532-8161.jpg?size=626&ext=jpg&ga=GA1.1.57616308.1696785572&semt=ais",
+      "readTime": 10 ,
+      "publishDate": "2023-10-08"
+    },
+    {
+      "id": 2,
+      "authorName": "Jane Smith",
+      "blogTitle": "The Art of Cooking",
+      "blogCoverImage": "https://img.freepik.com/free-photo/man-cook-holds-pan-with-vegetables-flying-air_613910-10115.jpg?size=626&ext=jpg&ga=GA1.2.57616308.1696785572&semt=ais",
+      "authorImage": "https://img.freepik.com/free-photo/beautiful-businesswoman-portrait_144627-28110.jpg?size=626&ext=jpg&ga=GA1.1.57616308.1696785572&semt=ais",
+      "readTime": 8 ,
+      "publishDate": "2023-10-09"
+    },
+    {
+      "id": 3,
+      "authorName": "David Wilson",
+      "blogTitle": "Tech Trends in 2023",
+      "blogCoverImage": "https://img.freepik.com/free-photo/teenager-dressed-white-t-shirt-using-virtual-reality-glasses-with-graph-charts-numbers-lines-technology-concept_613910-4410.jpg?size=626&ext=jpg&ga=GA1.2.57616308.1696785572&semt=ais",
+      "authorImage": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&ga=GA1.1.57616308.1696785572&semt=ais",
+      "readTime": 15,
+      "publishDate": "2023-10-10"
+    },
+    {
+      "id": 4,
+      "authorName": "Emily Davis",
+      "blogTitle": "Travel Adventures Around the World",
+      "blogCoverImage": "https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg?size=626&ext=jpg&ga=GA1.2.57616308.1696785572&semt=ais",
+      "authorImage": "https://img.freepik.com/free-photo/portrait-young-beautiful-woman-standing-smiling_114579-67121.jpg?size=626&ext=jpg&ga=GA1.2.57616308.1696785572&semt=ais",
+      "readTime": 12,
+      "publishDate": "2023-10-11"
+    }
+  ]
+  

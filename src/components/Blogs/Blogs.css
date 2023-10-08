@@ -1,0 +1,19 @@
+.blogs{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    align-items: start;
+    justify-items: start;
+
+}
+.total-time{
+    border-radius: 8px;
+border: 1px solid #6047EC;
+background-color: rgba(96, 71, 236, 0.10);
+    padding: 21px 48px;
+}
+.total-time h3{
+    color: #6047EC;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}

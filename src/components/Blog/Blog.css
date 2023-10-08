@@ -1,0 +1,41 @@
+.blog{
+    margin-bottom: 40px;
+}
+.cover-img{
+    margin-top: 10px
+}
+.cover-img img {
+
+width: 845px;
+height: 450px;
+
+}
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+.author-info img{
+    width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+.author-name{
+    margin-left: 10px;
+}
+.author-name h5{
+    margin: 0;
+}
+.author-name p{
+    margin: 0;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
