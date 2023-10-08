@@ -2,9 +2,18 @@ import React from "react";
 import "./Blog.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
+import toast, { Toaster } from 'react-hot-toast';
+const notify = () => toast.success('Bookmark Added');
 
 const Blog = (props) => {
-    console.log(props)
+    const showToastAndExecuteFunction = () => {
+        // Show a toast notification
+        notify('This is a success message');
+    
+    
+        // Call your other function here
+        bookMark(props.blog);
+      };
   const {
     authorName,
     blogTitle,
@@ -13,6 +22,8 @@ const Blog = (props) => {
     publishDate,
     authorImage,
   } = props.blog;
+  const markRead = props.markRead;
+  const bookMark = props.bookMark;
 
   return (
     <div className="blog">
@@ -32,18 +43,21 @@ const Blog = (props) => {
         <p>
           <small>
             {readTime} mins read{" "}
-            <FontAwesomeIcon
+            <FontAwesomeIcon onClick={showToastAndExecuteFunction}
               icon={faBookmark}
-              size="sm"
-              style={{ color: "#404244" }}
+              
             />
+            
           </small>
         </p>
+        <Toaster />
       </div>
       <div className="title">
         <h2>{blogTitle}</h2>
-        <button onClick={()=> }> Mark as read</button>
+        <button onClick={()=> {markRead(props.blog)}} >  Mark as read</button>
+        
       </div>
+
     </div>
   );
 };
