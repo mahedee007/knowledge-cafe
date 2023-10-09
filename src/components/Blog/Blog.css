@@ -39,3 +39,12 @@ border-radius: 50%;
     font-weight: 700;
     margin-bottom: 8px;
 }
+button{
+    padding: 8px 10px;
+    border: none;
+    background-color: #6047EC !important;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Blogs.css'
 import Blog from '../Blog/Blog';
+import Time from '../Time/Time';
+import Bookmark from '../Bookmark/Bookmark';
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     const [count, setCount] = useState([])
@@ -45,13 +47,21 @@ const Blogs = () => {
             }
             
          </div>
-         <div className="total-time">
-            <h3>Spent time on read: {totalCount} min </h3>
+         <div >
+            <div className="total-time">
+            <Time
+            totalCount ={totalCount}
+            ></Time>
 
+            
+            </div>
+            <div className="bookmark-blogs">
             <h4>bookmarked bolgs: {bookmark.length} </h4>
-            <div>
                {
-                bookmark.map(bookmark => <h3>{bookmark.blogTitle}</h3>)
+                bookmark.map(bookmark => <Bookmark
+                key = {bookmark.id}
+                    bookmark = {bookmark.blogTitle}
+                ></Bookmark>)
                }
             </div>
          </div>
